@@ -1,0 +1,17 @@
+---- Student List ----
+Student ID: 123
+Name: hanhmai
+Address: hcm
+Year of Birth: 2000
+------------------------
+Student ID: 124
+Name: quochuy
+Address: longan
+Year of Birth: 2001
+------------------------
+---- Student List ----
+Student ID: 125
+Name: vuhuong
+Address: govap
+Year of Birth: 1997
+------------------------
