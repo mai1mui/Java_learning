@@ -1,0 +1,68 @@
+OOP- LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
+Object-Oriented Programming
+
+OOP là phương pháp lập trình dựa trên việc mô phỏng thế giới thực bằng các đối tượng (object).
+Mỗi đối tượng gồm:
+- Thuộc tính (biến – mô tả đặc điểm).
+- Phương thức (hàm – mô tả hành vi).
+
+👉 Ví dụ:
+Lớp Student có:
+- Thuộc tính: name, age.
+- Phương thức: input(), display().
+
+⚙️ Cách hoạt động của OOP
+1. Xây dựng lớp (Class):
+- Mẫu thiết kế cho các đối tượng.
+- Xác định thuộc tính và phương thức chung.
+2. Tạo đối tượng (Object):
+- Từ lớp, tạo ra đối tượng cụ thể để sử dụng.
+3. Tương tác qua phương thức:
+- Gọi hàm trên từng object để thao tác dữ liệu.
+
+📦 4 Tính chất cơ bản của OOP
+- Đóng gói (Encapsulation)	
+- Kế thừa (Inheritance)
+- Đa hình (Polymorphism)
+- Trừu tượng (Abstraction)	
+
+🛠️ Cách phân chia công việc trong OOP
+1. Phân tích bài toán
+→ Xác định các đối tượng thực tế: như Student, Book, Employee,...
+
+2. Thiết kế lớp (Model)
+→ Tạo class cho từng đối tượng: thuộc tính, phương thức gì?
+
+3. Tạo lớp quản lý
+→ Dùng để xử lý danh sách đối tượng (add, remove, search,...)
+
+4. Viết lớp main (thực thi)
+→ Xây dựng luồng chính: nhập dữ liệu, hiển thị, gọi hàm quản lý.
+
+🔄 Sơ đồ luồng OOP đơn giản:
+
+main()
+  ↓
+Gọi → Class Quản Lý
+  ↓
+Tạo/Gọi → Class Đối Tượng
+  ↓
+Xử lý dữ liệu (input, display, edit)
+
+📌 Ví dụ phân chia công việc
+💼 Bài toán: Quản lý học sinh
+Thành phần          Vai trò
+    Student             Class đối tượng: name, age, input(), display()
+    StudentManager      Class quản lý: danh sách students, thêm, hiện, xóa
+    MainApp             Chương trình chính: menu, gọi các chức năng
+
+✅ Tóm gọn
+OOP = lập trình bằng đối tượng (gần giống cuộc sống thật).
+Lớp = thiết kế, đối tượng = thực tế.
+Phân chia công việc theo: đối tượng, quản lý, thực thi.
+Dễ mở rộng, tái sử dụng, bảo trì và cộng tác nhóm.
+ses01: thêm, show bằng menu có ghi kết quả ra file theo kiểu FileWriter()
+    Ex01_DoiTuong
+    Ex01_QuanLy
+    Ex01_ThucThi
+Ex02_1file
