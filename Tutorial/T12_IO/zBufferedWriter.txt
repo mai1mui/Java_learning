@@ -1,0 +1,2 @@
+DoiTuong{code=std01, name=A Văn Lê}
+DoiTuong{code=std02, name=B Văn La}
